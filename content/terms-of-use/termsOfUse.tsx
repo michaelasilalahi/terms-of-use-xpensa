@@ -21,14 +21,16 @@ export const termsOfUseData = [
     content: (
       <>
         Seluruh praktik perlindungan data tersebut diatur lebih lanjut dalam{' '}
-        <Link 
-          href="/privacy-policy" 
-          className="underline font-semibold cursor-pointer text-blue-600 hover:text-blue-800 transition-colors"
+        <Link
+          href='/privacy-policy'
+          className='underline cursor-pointer hover:text-gray-500 transition-colors'
         >
           Kebijakan Privasi
         </Link>{' '}
-        kami yang menjelaskan cara kami mengumpulkan dan menggunakan informasi pribadi Anda. Meskipun bukan bagian dari Ketentuan hukum ini, dokumen tersebut adalah dokumen yang sangat penting dan wajib Anda baca.
+        kami yang menjelaskan cara kami mengumpulkan dan menggunakan informasi
+        pribadi Anda. Meskipun bukan bagian dari Ketentuan hukum ini, dokumen
+        tersebut adalah dokumen yang sangat penting dan wajib Anda baca.
       </>
-    )
-  }
+    ),
+  },
 ];

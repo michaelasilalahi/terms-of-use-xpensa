@@ -3,12 +3,9 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className='border-b border-gray-300 py-5'>
+    <header className='sticky top-0 bg-white border-b border-gray-300 py-5'>
       <div className='w-[90%] mx-auto flex justify-between items-center'>
-        <Link
-          href='/'
-          className='font-sans text-xl tracking-tight tracking-widest'
-        >
+        <Link href='/' className='font-sans text-xl tracking-widest'>
           Xpensa
         </Link>
 
