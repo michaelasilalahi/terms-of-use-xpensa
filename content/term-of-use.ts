@@ -1,17 +1,18 @@
 export const termsOfUseData = [
   {
-    id: "pengantar",
-    title: "1. Pengantar",
-    content: "Selamat datang di Xpensa. Dengan mengunduh, mengakses, atau menggunakan aplikasi pengelola keuangan Xpensa, Anda menyetujui untuk terikat oleh Ketentuan Pengguna ini. Jika Anda tidak setuju, mohon untuk tidak menggunakan aplikasi ini."
+    content:
+      "Xpensa membangun teknologi cerdas yang memudahkan individu untuk mencatat, mengelola, dan menganalisis arus kas keuangan mereka sehari-hari. Ketentuan Penggunaan ('Ketentuan') ini mengatur akses dan penggunaan Anda atas aplikasi seluler Xpensa, fitur kecerdasan buatan (AI Data Mining), situs web, serta seluruh layanan dan perangkat lunak terkait yang kami tawarkan (secara bersama-sama disebut sebagai 'Layanan'). Layanan ini disediakan dan dikelola sepenuhnya oleh Xpensa.",
   },
   {
-    id: "akun",
-    title: "2. Akun Pengguna",
-    content: "Anda bertanggung jawab untuk menjaga kerahasiaan informasi akun Anda. Segala aktivitas yang terjadi di bawah akun Anda adalah tanggung jawab Anda sepenuhnya."
+    content:
+      'Ketentuan ini merupakan perjanjian hukum yang mengikat antara Anda dan Xpensa. Jika Anda tidak menyetujui Ketentuan ini, kami mempersilakan Anda untuk tidak mengunduh, mengakses, maupun menggunakan Layanan kami. Sebaliknya, dengan mengunduh aplikasi dan menggunakan Xpensa, Anda secara tegas menyetujui seluruh aturan yang tertuang dalam dokumen ini.',
   },
   {
-    id: "layanan",
-    title: "3. Penggunaan Layanan",
-    content: "Aplikasi ini disediakan untuk membantu Anda mencatat keuangan pribadi. Kami tidak memberikan nasihat keuangan profesional."
-  }
+    content:
+      'Kami menyadari bahwa informasi keuangan adalah ranah privasi yang sangat sensitif. Oleh karena itu, kami menegaskan bahwa kami tidak menjual data pribadi maupun data pelaporan keuangan Anda kepada pengiklan atau pihak ketiga mana pun. Kami juga tidak membagikan informasi identitas Anda (seperti nama lengkap atau alamat email) kepada pialang data (data broker). Kepercayaan dan keamanan privasi Anda adalah prioritas utama kami.',
+  },
+  {
+    content:
+      'Untuk mewujudkan transparansi tersebut, di bawah ini kami menjelaskan secara terperinci bagaimana kami mengumpulkan, menggunakan, dan melindungi data Anda saat berinteraksi dengan Xpensa, beserta batasan-batasan dalam penggunaan Layanan kami. Harap diingat bahwa Anda selalu memiliki kendali dan akses penuh di dalam pengaturan aplikasi untuk meninjau atau menghapus data Anda kapan pun Anda inginkan.',
+  },
 ];

@@ -1,12 +1,16 @@
 // components
-import Header from "@/src/components/layout/Header";
-import TermsOfUsePage from "@/src/components/terms-of-use/TermsOfUse";
+import Header from '@/src/components/layout/Header';
+import TermsOfUsePage from '@/src/components/terms-of-use/TermsOfUse';
+import WhoWeAre from '@/src/components/who-we-are/whoWheAre';
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-white px-6">
+    <main>
       <Header />
-      <TermsOfUsePage />
-    </div>
+      <main className='max-w-3xl mx-auto mt-[50px] min-h-screen'>
+        <TermsOfUsePage />
+        <WhoWeAre />
+      </main>
+    </main>
   );
 }

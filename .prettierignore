@@ -1,0 +1,11 @@
+# Mengabaikan folder sistem dan build
+node_modules
+.next
+out
+dist
+build
+
+# Mengabaikan file publik dan env
+public
+.env*
+pnpm-lock.yaml

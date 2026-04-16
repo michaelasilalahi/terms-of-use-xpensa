@@ -1,12 +1,26 @@
-import Link from "next/link";
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="border-b border-gray-200 py-4 px-6 mb-8">
-      <div className="max-w-3xl mx-auto flex justify-between items-center">
-        <Link href="/" className="font-sans text-xl tracking-tight">
+    <header className='border-b border-gray-300 py-5'>
+      <div className='w-[90%] mx-auto flex justify-between items-center'>
+        <Link
+          href='/'
+          className='font-sans text-xl tracking-tight tracking-widest'
+        >
           Xpensa
         </Link>
+
+        <button className='cursor-pointer hover:bg-gray-100'>
+          <Image
+            src='/hamburger.svg'
+            alt='Hamburger'
+            width={25}
+            height={25}
+            className='invert'
+          />
+        </button>
       </div>
     </header>
   );
