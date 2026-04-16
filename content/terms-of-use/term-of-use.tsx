@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export const termsOfUseData = [
   {
     content:
@@ -13,6 +15,20 @@ export const termsOfUseData = [
   },
   {
     content:
-      'Untuk mewujudkan transparansi tersebut, di bawah ini kami menjelaskan secara terperinci bagaimana kami mengumpulkan, menggunakan, dan melindungi data Anda saat berinteraksi dengan Xpensa, beserta batasan-batasan dalam penggunaan Layanan kami. Harap diingat bahwa Anda selalu memiliki kendali dan akses penuh di dalam pengaturan aplikasi untuk meninjau atau menghapus data Anda kapan pun Anda inginkan.',
+      'Untuk mewujudkan transparansi tersebut, di bawah ini kami menjelaskan secara terperinci beserta batasan-batasan dalam penggunaan Layanan kami. Harap diingat bahwa Anda selalu memiliki kendali dan akses penuh di dalam pengaturan aplikasi untuk meninjau atau menghapus data Anda kapan pun Anda inginkan.',
   },
+  {
+    content: (
+      <>
+        Seluruh praktik perlindungan data tersebut diatur lebih lanjut dalam{' '}
+        <Link 
+          href="/privacy-policy" 
+          className="underline font-semibold cursor-pointer text-blue-600 hover:text-blue-800 transition-colors"
+        >
+          Kebijakan Privasi
+        </Link>{' '}
+        kami yang menjelaskan cara kami mengumpulkan dan menggunakan informasi pribadi Anda. Meskipun bukan bagian dari Ketentuan hukum ini, dokumen tersebut adalah dokumen yang sangat penting dan wajib Anda baca.
+      </>
+    )
+  }
 ];

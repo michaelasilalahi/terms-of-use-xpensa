@@ -1,7 +1,7 @@
 // 1. Import Header dari folder src/components
-import { termsOfUseData } from '@/content/term-of-use';
+import { termsOfUseData } from '@/content/terms-of-use/term-of-use';
 
-export default function TermsOfUsePage() {
+export default function TermsOfUseComponent() {
   return (
     <main>
       <div className='text-center flex flex-col gap-y-10'>
@@ -16,7 +16,7 @@ export default function TermsOfUsePage() {
       <div className='mt-[70px] space-y-6'>
         {termsOfUseData.map((section, index) => (
           <section key={index}>
-            <p className='leading-[1.5] font-medium text-xl'>
+            <p className='leading-relaxed font-medium text-xl'>
               {section.content}
             </p>
           </section>
