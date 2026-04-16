@@ -2,7 +2,7 @@ import { contactInformationData } from '@/content/terms-of-use/contactInformatio
 
 export default function ContactInformationComponent() {
   return (
-    <main>
+    <main id='contact-information' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Hubungi Kami</p>
       </div>

@@ -2,7 +2,7 @@ import { informationWeCollectData } from '@/content/privacy-policy/informationWe
 
 export default function InformationWeCollectComponent() {
   return (
-    <main>
+    <main id='information-we-collect' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Informasi yang Kami Kumpulkan</p>
       </div>

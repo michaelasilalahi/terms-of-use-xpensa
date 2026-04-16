@@ -2,7 +2,7 @@ import { howWeUseYourData } from '@/content/privacy-policy/howWeUseYourData';
 
 export default function HowWeUseYourDataComponent() {
   return (
-    <main>
+    <main id='how-we-use-your-data' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>
           Bagaimana Kami Menggunakan Data Anda

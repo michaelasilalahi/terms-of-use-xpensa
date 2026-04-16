@@ -2,7 +2,7 @@ import { registerAndAccessData } from '@/content/terms-of-use/registerAndAccess'
 
 export default function RegisterAndAccessComponent() {
   return (
-    <main>
+    <main id='register-and-access' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Daftar dan Akses</p>
       </div>

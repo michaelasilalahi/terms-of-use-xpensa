@@ -1,8 +1,8 @@
-import { securityAndDataProtection } from '@/content/privacy-policy/SecurityAndDataProtection';
+import { securityAndDataProtection } from '@/content/privacy-policy/securityAndDataProtection';
 
 export default function SecurityAndDataProtectionComponent() {
   return (
-    <main>
+    <main id='security-and-data-protection' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Keamanan dan Pembatasan Data</p>
       </div>

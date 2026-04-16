@@ -2,7 +2,7 @@ import { dataStorageAndRetention } from '@/content/privacy-policy/dataStorageAnd
 
 export default function DataStorageAndRetentionComponent() {
   return (
-    <main>
+    <main id='data-storage-and-retention' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Penyimpanan dan Retensi Data</p>
       </div>

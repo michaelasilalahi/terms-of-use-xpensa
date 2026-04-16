@@ -3,7 +3,7 @@ import { termsOfUseData } from '@/content/terms-of-use/termsOfUse';
 
 export default function TermsOfUseComponent() {
   return (
-    <main>
+    <main id='terms-of-use' className='scroll-mt-24'>
       <div className='flex flex-col gap-y-12.5 mt-12.5'>
         <div className='text-center flex flex-col gap-y-10'>
           <h1 className='text-5xl text-center font-semibold'>

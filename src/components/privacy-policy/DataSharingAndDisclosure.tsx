@@ -2,7 +2,7 @@ import { dataSharingAndDisclosure } from '@/content/privacy-policy/dataSharingAn
 
 export default function DataSharingAndDisclosureComponent() {
   return (
-    <main>
+    <main id='data-sharing-and-disclosure' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>
           Pembagian dan Pengungkapan Data

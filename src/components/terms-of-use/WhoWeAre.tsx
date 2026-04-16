@@ -2,7 +2,7 @@ import { whoWeAreData } from '@/content/terms-of-use/whoWeAre';
 
 export default function WhoWeAreComponent() {
   return (
-    <main>
+    <main id='who-we-are' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Siapa Kami</p>
       </div>

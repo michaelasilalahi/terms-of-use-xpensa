@@ -1,10 +1,11 @@
-import Header from '@/src/components/layout/Header';
+import Header from '@/src/components/header/Header';
 import PrivacyPolicyComponent from '@/src/components/privacy-policy/PrivacyPolicy';
 import InformationWeCollectComponent from '@/src/components/privacy-policy/InformationWeCollect';
 import HowWeUseYourDataComponent from '@/src/components/privacy-policy/HowWeUseYourData';
 import DataSharingAndDisclosureComponent from '@/src/components/privacy-policy/DataSharingAndDisclosure';
 import DataStorageAndRetentionComponent from '@/src/components/privacy-policy/DataStorageAndRetention';
-import Footer from '@/src/components/layout/Footer';
+import SecurityAndDataProtectionComponent from '@/src/components/privacy-policy/SecurityAndDataProtection';
+import Footer from '@/src/components/footer/Footer';
 
 export default function PrivacyPolicyPage() {
   return (
@@ -16,6 +17,7 @@ export default function PrivacyPolicyPage() {
         <HowWeUseYourDataComponent />
         <DataSharingAndDisclosureComponent />
         <DataStorageAndRetentionComponent />
+        <SecurityAndDataProtectionComponent />
       </main>
       <Footer />
     </main>

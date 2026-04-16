@@ -2,7 +2,7 @@ import { governingLawData } from '@/content/terms-of-use/governingLaw';
 
 export default function GoverningLawComponent() {
   return (
-    <main>
+    <main id='governing-law' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Hukum yang Berlaku</p>
       </div>

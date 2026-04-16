@@ -2,7 +2,7 @@ import { limitationOfLiabilityData } from '@/content/terms-of-use/limitationOfLi
 
 export default function LimitationOfLiabilityComponent() {
   return (
-    <main>
+    <main id='limitation-of-liability' className='scroll-mt-24'>
       <div className='mb-7.5'>
         <p className='font-semibold text-3xl'>Batasan Tanggung Jawab</p>
       </div>
