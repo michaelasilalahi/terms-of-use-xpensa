@@ -12,8 +12,8 @@ export default function Header() {
   const isPrivacyPolicy = pathname === '/privacy-policy';
 
   return (
-    <header className='sticky top-0 bg-white border-b border-gray-300 py-5'>
-      <div className='w-[90%] mx-auto flex justify-between items-center'>
+    <header className='sticky top-0 bg-white border-b border-gray-300 py-4 md:py-5 z-50'>
+      <div className='w-[90%] mx-auto flex justify-between items-center relative z-20 bg-white'>
         <Link href='/' className='font-sans text-xl tracking-widest'>
           Xpensa
         </Link>
