@@ -11,7 +11,7 @@ export default function TermsOfUsePage() {
   return (
     <main>
       <Header />
-      <main className='flex flex-col gap-y-32.5 max-w-3xl mx-auto min-h-screen'>
+      <main className='flex flex-col gap-y-20 w-[70%] mx-auto min-h-screen lg:w-[50%] md:gap-y-25 lg:gap-y-32.5'>
         <TermsOfUseComponent />
         <WhoWeAreComponent />
         <RegisterAndAccessComponent />
