@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  xpensa-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xpensa-frontend
+    restart: unless-stopped
+    # Intentionally omitted port mapping as per user request
+    # This service is only accessible internally within the Docker network
